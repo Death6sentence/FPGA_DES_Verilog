@@ -1,0 +1,231 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun Nov 30 23:30:38 2025
+# Process ID         : 24408
+# Current directory  : C:/Users/clfzs/Desktop/2025FG12/des_prj/project_1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent21100 C:\Users\clfzs\Desktop\2025FG12\des_prj\project_1\project_1.xpr
+# Log file           : C:/Users/clfzs/Desktop/2025FG12/des_prj/project_1/vivado.log
+# Journal file       : C:/Users/clfzs/Desktop/2025FG12/des_prj/project_1\vivado.jou
+# Running On         : LOGOSNH55
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : AMD Ryzen 5 5600 6-Core Processor              
+# CPU Frequency      : 3493 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 17037 MB
+# Swap memory        : 10737 MB
+# Total Virtual      : 27774 MB
+# Available Virtual  : 8436 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Common 17-2002] xilinx_board_store is available in tool installation area but store's item catalog metadata file is not mapped correctly for 2024.2 release.
+open_project C:/Users/clfzs/Desktop/2025FG12/des_prj/project_1/project_1.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:18 . Memory (MB): peak = 2157.293 ; gain = 894.281
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7s50fgga484-1
+Top: top
+INFO: [Device 21-403] Loading part xc7s50fgga484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 24596
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2763.543 ; gain = 432.574
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/clfzs/Desktop/2025FG12/des_prj/project_1/.Xil/Vivado-24408-LOGOSNH55/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/project_1/.Xil/Vivado-24408-LOGOSNH55/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'des_con' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_con.v:1]
+INFO: [Synth 8-6157] synthesizing module 'des_ch' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_ch.v:22]
+INFO: [Synth 8-6157] synthesizing module 'delay_line' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 1 - type: integer 
+	Parameter DEPTH bound to: 34 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des.v:22]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized0' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized0' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized1' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized1' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized2' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized2' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized3' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized3' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized4' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized4' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized5' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized5' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized6' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 14 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized6' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized7' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized7' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized8' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 18 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized8' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized9' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 20 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized9' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized10' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 22 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized10' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized11' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 24 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized11' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized12' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 26 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized12' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized13' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 28 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized13' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized14' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 30 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized14' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_round' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_round.v:1]
+INFO: [Synth 8-6157] synthesizing module 'des_feistel' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_feistel.v:22]
+INFO: [Synth 8-6157] synthesizing module 'des_S' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized0' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized0' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized1' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized1' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized2' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized2' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized3' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized3' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized4' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized4' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized5' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized5' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized6' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 7 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized6' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_E' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_E.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_E' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_E.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_P' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_P.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_P' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_P.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_feistel' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_feistel.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_round' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_round.v:1]
+INFO: [Synth 8-6157] synthesizing module 'des_key_schedule' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_key_schedule.v:22]
+INFO: [Synth 8-6157] synthesizing module 'des_PC1' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_PC1.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_PC1' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_PC1.v:22]
+INFO: [Synth 8-6157] synthesizing module 'des_PC2' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_PC2.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_PC2' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_PC2.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_key_schedule' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_key_schedule.v:22]
+INFO: [Synth 8-6157] synthesizing module 'des_IP' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_IP.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_IP' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_IP.v:22]
+INFO: [Synth 8-6157] synthesizing module 'des_IP1' [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_IP1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_IP1' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_IP1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_ch' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_ch.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_con' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des/des_con.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/top.v:1]
+WARNING: [Synth 8-7129] Port CD[47] in module des_PC2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CD[38] in module des_PC2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CD[34] in module des_PC2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CD[31] in module des_PC2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CD[21] in module des_PC2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CD[18] in module des_PC2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CD[13] in module des_PC2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CD[2] in module des_PC2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[56] in module des_PC1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[48] in module des_PC1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[40] in module des_PC1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[32] in module des_PC1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[24] in module des_PC1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[16] in module des_PC1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[8] in module des_PC1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[0] in module des_PC1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module des_con is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2886.527 ; gain = 555.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2886.527 ; gain = 555.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2886.527 ; gain = 555.559
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/clfzs/Desktop/2025FG12/des_prj/project_1/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'clk_inst'
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.773 . Memory (MB): peak = 2886.527 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/clfzs/Desktop/2025FG12/des_prj/project_1/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_inst/inst'
+Finished Parsing XDC File [c:/Users/clfzs/Desktop/2025FG12/des_prj/project_1/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_inst/inst'
+Parsing XDC File [c:/Users/clfzs/Desktop/2025FG12/des_prj/project_1/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_inst/inst'
+Finished Parsing XDC File [c:/Users/clfzs/Desktop/2025FG12/des_prj/project_1/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_inst/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/clfzs/Desktop/2025FG12/des_prj/project_1/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des.xdc]
+Finished Parsing XDC File [C:/Users/clfzs/Desktop/2025FG12/des_prj/rtl/des.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 3005.602 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:24 ; elapsed = 00:00:19 . Memory (MB): peak = 3294.434 ; gain = 963.465
+88 Infos, 17 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:22 . Memory (MB): peak = 3294.434 ; gain = 1119.262
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 30 23:47:54 2025...

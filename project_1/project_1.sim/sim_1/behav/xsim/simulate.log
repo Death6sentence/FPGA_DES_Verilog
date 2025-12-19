@@ -1,0 +1,18 @@
+Time resolution is 1 ps
+===== SIM START =====
+[              311000 ns] text = 0123456789abcde7 key = 0123456789abcdef decrypt = 0
+[              312000 ns] text = 3132333332313332 key = 3132333435363738 decrypt = 0
+[              313000 ns] text = c95744256a5ed31d key = 0123456789abcdef decrypt = 1
+[              315000 ns] text = ffffffffffffffff key = 0123456789abcdef decrypt = 0
+[              336000 ns] text = 0000000000000000 key = 133457799bbcdff1 decrypt = 1
+[              337000 ns] text = ffffffffffffffff key = 133457799bbcdff1 decrypt = 0
+[              394000 ns] Result = c95744256a5ed31d
+[              396000 ns] Result = 53db7da3f194a15d
+[              397000 ns] Result = 0123456789abcde7
+[              398000 ns] Result = ec1c1ce1022f2f61
+[              419000 ns] Result = 9efdfc5c2b5cd585
+[              421000 ns] Result = ec1c1ce1022f2f61
+===== SIM RESET =====
+[              463000 ns] text = ffffffffffffffff key = 133457799bbcdff1 decrypt = 0
+===== SIM END =====
+$finish called at time : 595625 ps : File "C:/Users/clfzs/Desktop/2025FG12/des_prj/sim/des_sim.v" Line 124

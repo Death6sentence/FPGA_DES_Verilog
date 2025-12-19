@@ -1,0 +1,17 @@
+Time resolution is 1 ps
+===== SIM START =====
+[              394000 ns] Cipher = 53db7da3f194a15d
+[              396000 ns] Cipher = 96d0028878d58c89
+[              397000 ns] Cipher = 9efdfc5c2b5cd585
+[              398000 ns] Cipher = 9efdfc5c2b5cd585
+[              399000 ns] Cipher = 9efdfc5c2b5cd585
+[              401000 ns] Cipher = 9efdfc5c2b5cd585
+[              402000 ns] Cipher = 9efdfc5c2b5cd585
+[              403000 ns] Cipher = 0123456789abcde7
+[              404000 ns] Cipher = 0123456789abcde7
+[              406000 ns] Cipher = 0123456789abcde7
+[              407000 ns] Cipher = 59732356f36fde06
+[              408000 ns] Cipher = c95744256a5ed31d
+[              409000 ns] Cipher = 3132333332313332
+===== SIM END =====
+$finish called at time : 584375 ps : File "C:/Users/clfzs/Desktop/FPGA2/des_6/sim/des_sim.v" Line 160

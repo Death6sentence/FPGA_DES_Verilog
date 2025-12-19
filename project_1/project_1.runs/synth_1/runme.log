@@ -1,0 +1,407 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Tue Nov 25 10:49:10 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+create_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 907.551 ; gain = 462.473
+Command: read_checkpoint -auto_incremental -incremental C:/Users/clfzs/Desktop/2025FG21/des_prj/project_1/project_1.srcs/utils_1/imports/synth_1/top.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/clfzs/Desktop/2025FG21/des_prj/project_1/project_1.srcs/utils_1/imports/synth_1/top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top top -part xc7s50fgga484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: [Device 21-403] Loading part xc7s50fgga484-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1576
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1537.816 ; gain = 461.152
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/clfzs/Desktop/2025FG21/des_prj/project_1/project_1.runs/synth_1/.Xil/Vivado-11104-LOGOSNH55/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/project_1/project_1.runs/synth_1/.Xil/Vivado-11104-LOGOSNH55/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'des_con' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_con.v:1]
+INFO: [Synth 8-6157] synthesizing module 'des_ch' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_ch.v:22]
+INFO: [Synth 8-6157] synthesizing module 'delay_line' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 1 - type: integer 
+	Parameter DEPTH bound to: 34 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des.v:22]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized0' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized0' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized1' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized1' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized2' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized2' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized3' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized3' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized4' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized4' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized5' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized5' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized6' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 14 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized6' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized7' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized7' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized8' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 18 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized8' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized9' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 20 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized9' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized10' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 22 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized10' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized11' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 24 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized11' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized12' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 26 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized12' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized13' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 28 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized13' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized14' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 30 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized14' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_round' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_round.v:1]
+INFO: [Synth 8-6157] synthesizing module 'des_feistel' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_feistel.v:22]
+INFO: [Synth 8-6157] synthesizing module 'des_S' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized0' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized0' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized1' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized1' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized2' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized2' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized3' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized3' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized4' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized4' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized5' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized5' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized6' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 7 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized6' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_E' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_E.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_E' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_E.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_P' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_P.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_P' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_P.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_feistel' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_feistel.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_round' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_round.v:1]
+INFO: [Synth 8-6157] synthesizing module 'des_key_schedule' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_key_schedule.v:22]
+INFO: [Synth 8-6157] synthesizing module 'des_PC1' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_PC1.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_PC1' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_PC1.v:22]
+INFO: [Synth 8-6157] synthesizing module 'des_PC2' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_PC2.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_PC2' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_PC2.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_key_schedule' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_key_schedule.v:22]
+INFO: [Synth 8-6157] synthesizing module 'des_IP' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_IP.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_IP' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_IP.v:22]
+INFO: [Synth 8-6157] synthesizing module 'des_IP1' [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_IP1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_IP1' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_IP1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_ch' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_ch.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_con' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des/des_con.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/top.v:1]
+WARNING: [Synth 8-7129] Port CD[47] in module des_PC2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CD[38] in module des_PC2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CD[34] in module des_PC2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CD[31] in module des_PC2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CD[21] in module des_PC2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CD[18] in module des_PC2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CD[13] in module des_PC2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CD[2] in module des_PC2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[56] in module des_PC1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[48] in module des_PC1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[40] in module des_PC1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[32] in module des_PC1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[24] in module des_PC1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[16] in module des_PC1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[8] in module des_PC1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[0] in module des_PC1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module des_con is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1658.375 ; gain = 581.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1658.375 ; gain = 581.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1658.375 ; gain = 581.711
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.778 . Memory (MB): peak = 1658.375 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/clfzs/Desktop/2025FG21/des_prj/project_1/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_inst'
+Finished Parsing XDC File [c:/Users/clfzs/Desktop/2025FG21/des_prj/project_1/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_inst'
+Parsing XDC File [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des.xdc]
+Finished Parsing XDC File [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/clfzs/Desktop/2025FG21/des_prj/rtl/des.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1769.762 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.242 . Memory (MB): peak = 1769.762 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1769.762 ; gain = 693.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s50fgga484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1769.762 ; gain = 693.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  c:/Users/clfzs/Desktop/2025FG21/des_prj/project_1/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  c:/Users/clfzs/Desktop/2025FG21/des_prj/project_1/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property KEEP_HIERARCHY = SOFT for clk_inst. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1769.762 ; gain = 693.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1769.762 ; gain = 693.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     48 Bit         XORs := 64    
+	   2 Input     32 Bit         XORs := 64    
++---Registers : 
+	               64 Bit    Registers := 76    
+	               48 Bit    Registers := 960   
+	               32 Bit    Registers := 128   
+	                4 Bit    Registers := 512   
+	                2 Bit    Registers := 512   
+	                1 Bit    Registers := 208   
++---Muxes : 
+	   2 Input   64 Bit        Muxes := 3     
+	   2 Input   48 Bit        Muxes := 64    
+	   2 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:50 ; elapsed = 00:01:53 . Memory (MB): peak = 1955.262 ; gain = 878.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:55 ; elapsed = 00:01:58 . Memory (MB): peak = 1980.926 ; gain = 904.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:04 ; elapsed = 00:02:07 . Memory (MB): peak = 2064.020 ; gain = 987.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:08 ; elapsed = 00:02:12 . Memory (MB): peak = 2066.301 ; gain = 989.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:11 ; elapsed = 00:02:15 . Memory (MB): peak = 2192.430 ; gain = 1115.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:12 ; elapsed = 00:02:15 . Memory (MB): peak = 2192.430 ; gain = 1115.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:12 ; elapsed = 00:02:16 . Memory (MB): peak = 2192.430 ; gain = 1115.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:12 ; elapsed = 00:02:16 . Memory (MB): peak = 2192.430 ; gain = 1115.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:12 ; elapsed = 00:02:16 . Memory (MB): peak = 2192.430 ; gain = 1115.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:12 ; elapsed = 00:02:16 . Memory (MB): peak = 2192.430 ; gain = 1115.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+-----------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                                                        | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+-----------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|top         | u_des/des1/u_delay1/shift_reg_reg[33][0]                        | 34     | 1     | NO           | NO                 | YES               | 0      | 2       | 
+|top         | u_des/des1/inst_des2/DES_ROUND_PIPE[3].round_i/L_pipe_reg[22]   | 3      | 26    | NO           | NO                 | YES               | 26     | 0       | 
+|top         | u_des/des1/inst_des2/result_reg[5]                              | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|top         | u_des/des1/inst_des1/genblk1[15].u_delay1/shift_reg_reg[29][20] | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|top         | u_des/des1/inst_des1/DES_ROUND_PIPE[2].round_i/L_pipe_reg[26]   | 3      | 25    | NO           | NO                 | YES               | 25     | 0       | 
+|top         | u_des/des1/inst_des1/result_reg[7]                              | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|top         | u_des/des1/inst_des1/result_reg[5]                              | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|top         | u_des/des1/inst_des2/genblk1[8].u_delay1/shift_reg_reg[3][15]   | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|top         | u_des/des1/inst_des2/genblk1[8].u_delay1/shift_reg_reg[11][21]  | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|top         | u_des/des1/inst_des2/genblk1[13].u_delay1/shift_reg_reg[25][13] | 26     | 7     | NO           | NO                 | YES               | 0      | 7       | 
+|top         | u_des/des2/inst_des1/genblk1[15].u_delay1/shift_reg_reg[29][20] | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|top         | u_des/des2/inst_des1/DES_ROUND_PIPE[2].round_i/L_pipe_reg[26]   | 3      | 25    | NO           | NO                 | YES               | 25     | 0       | 
+|top         | u_des/des2/inst_des1/result_reg[7]                              | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|top         | u_des/des2/inst_des1/result_reg[5]                              | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|top         | u_des/des2/inst_des2/DES_ROUND_PIPE[3].round_i/L_pipe_reg[22]   | 3      | 26    | NO           | NO                 | YES               | 26     | 0       | 
+|top         | u_des/des2/inst_des2/result_reg[5]                              | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|top         | u_des/des2/u_delay1/shift_reg_reg[33][0]                        | 34     | 1     | NO           | NO                 | YES               | 0      | 2       | 
+|top         | u_des/des2/inst_des2/genblk1[8].u_delay1/shift_reg_reg[3][15]   | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|top         | u_des/des2/inst_des2/genblk1[8].u_delay1/shift_reg_reg[11][21]  | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|top         | u_des/des2/inst_des2/genblk1[13].u_delay1/shift_reg_reg[25][13] | 26     | 7     | NO           | NO                 | YES               | 0      | 7       | 
++------------+-----------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |clk_wiz |     1|
+|2     |LUT1    |    17|
+|3     |LUT2    |  2004|
+|4     |LUT3    |    23|
+|5     |LUT4    |     8|
+|6     |LUT5    |    58|
+|7     |LUT6    |  1686|
+|8     |SRL16E  |   120|
+|9     |SRLC32E |    18|
+|10    |FDCE    |    68|
+|11    |FDRE    |  7390|
+|12    |IBUF    |    19|
+|13    |OBUF    |     9|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:12 ; elapsed = 00:02:16 . Memory (MB): peak = 2192.430 ; gain = 1115.766
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:59 ; elapsed = 00:02:08 . Memory (MB): peak = 2192.430 ; gain = 1004.379
+Synthesis Optimization Complete : Time (s): cpu = 00:02:13 ; elapsed = 00:02:16 . Memory (MB): peak = 2192.430 ; gain = 1115.766
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.206 . Memory (MB): peak = 2212.820 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2216.512 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 6e17431
+INFO: [Common 17-83] Releasing license: Synthesis
+95 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:18 ; elapsed = 00:02:23 . Memory (MB): peak = 2216.512 ; gain = 1298.133
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2216.512 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/clfzs/Desktop/2025FG21/des_prj/project_1/project_1.runs/synth_1/top.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 25 10:51:55 2025...

@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../project_1.ip_user_files/ipstatic" \
+"des_sim_func_synth.v" \
+"../../../../../../rtl/des/delay_line.v" \
+"../../../../../../rtl/des/des.v" \
+"../../../../../../rtl/des/des_E.v" \
+"../../../../../../rtl/des/des_IP.v" \
+"../../../../../../rtl/des/des_IP1.v" \
+"../../../../../../rtl/des/des_P.v" \
+"../../../../../../rtl/des/des_PC1.v" \
+"../../../../../../rtl/des/des_PC2.v" \
+"../../../../../../rtl/des/des_S.v" \
+"../../../../../../rtl/des/des_con.v" \
+"../../../../../../rtl/des/des_feistel.v" \
+"../../../../../../rtl/des/des_key_schedule.v" \
+"../../../../../../rtl/des/des_round.v" \
+"../../../../../../sim/des_sim.v" \
+
+# Do not sort compile order
+nosort

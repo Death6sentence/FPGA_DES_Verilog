@@ -1,1 +1,4 @@
 # FPGA_DES_Verilog
+project_1 -> 工程文件
+rtl       -> 代码文件、约束文件
+sim       -> 仿真代码文件
